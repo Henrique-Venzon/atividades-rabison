@@ -22,7 +22,12 @@
 .typed-cursor {
     display: none;
 }
-
+.login h5{
+    font-size: 28px;
+    color: green;
+    margin-top: 420px;
+    position: absolute;
+}
 .login h1{
     font-size: 48px;
     margin-bottom: 300px;
@@ -57,6 +62,7 @@ form{
     text-transform: uppercase;
     background-color: rgb(0, 0, 0);
     transition: 0.8s;
+    cursor: pointer;
 }
 .login button:hover{
     background-color: rgb(3, 104, 3);

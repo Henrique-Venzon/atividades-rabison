@@ -26,4 +26,3 @@ $conexao -> close();
                 echo 'Cadastrado com sucesso.';
 exit();
 }
-?>

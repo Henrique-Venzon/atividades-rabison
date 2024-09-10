@@ -7,24 +7,35 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/idade-nome.css">
-        <script src="js/efeito.js" defer></script>
-    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+        <link rel="stylesheet" href="css/home.css">
     </head>
     <body>
         <div class="container">
-        <form action="processos/idade-nome.php" method="post">
-        <div class="login">
-        <h1 id="element"></h1>
-        <label style="margin-top:80px" for="nome">Nome:</label>
-        <input id="nome" type="text" name="nome">
-        <label for="idade">Idade:</label>
-        <input id="idade" type="number" name="idade">
-        <button type="submut">Enviar</button>
-        </div>
-        </form>
+            <div class="caixa-centro">
+                <div class="card-atividade">
+                    <h1>Atividade 01</h1>
+                    <button id="atividade01" type="button">VER</button>
+                    <h2 class="fundo">01</h2>
+                </div>
+                <div class="card-atividade">
+                    <h1>Atividade 02</h1>
+                    <button id="#" type="button">VER</button>
+                    <h2 class="fundo">02</h2>
+                </div>
+                <div class="card-atividade">
+                    <h1>Atividade 03</h1>
+                    <button id="#" type="button">VER</button>
+                    <h2 class="fundo">03</h2>
+                </div>
+                <div class="card-atividade">
+                    <h1>Atividade 04</h1>
+                    <button id="#" type="button">VER</button>
+                    <h2 class="fundo">04</h2>
+                </div>
+            </div>
+            
         </div>
         
-        
+        <script src="js/hiperlinks.js"></script>
     </body>
 </html>
