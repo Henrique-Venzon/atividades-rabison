@@ -7,7 +7,7 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="arquivos-index/home.css">
     </head>
     <body>
         <div class="container">
@@ -19,7 +19,7 @@
                 </div>
                 <div class="card-atividade">
                     <h1>Atividade 02</h1>
-                    <button id="#" type="button">VER</button>
+                    <button id="atividade02" type="button">VER</button>
                     <h2 class="fundo">02</h2>
                 </div>
                 <div class="card-atividade">
@@ -36,6 +36,6 @@
             
         </div>
         
-        <script src="js/hiperlinks.js"></script>
+        <script src="arquivos-index/hiperlinks.js"></script>
     </body>
 </html>

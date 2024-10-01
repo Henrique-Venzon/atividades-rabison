@@ -1,0 +1,26 @@
+*{
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: #007bac;
+    padding: 15px;
+    width: 100%;
+    color: #fff;
+}
+.nome{
+    margin-left: 75%;
+    font-size: 32px;
+}
+.banco-h1{
+    margin-left: 1%;
+    font-size: 32px;
+}
+.fa-person-running{
+    margin-left: 6%;
+    font-size: 32px;
+}
