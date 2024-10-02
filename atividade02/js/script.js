@@ -7,3 +7,4 @@ togglePassword.addEventListener('click', function () {
     
     this.textContent = type === 'password' ? '👁️' : '👁️‍🗨️';
 });
+

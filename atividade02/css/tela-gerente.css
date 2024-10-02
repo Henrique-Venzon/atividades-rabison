@@ -2,25 +2,196 @@
     overflow: hidden;
     padding: 0;
     margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 header{
     display: flex;
     align-items: center;
     background-color: #007bac;
-    padding: 15px;
+    height: 8vh;
     width: 100%;
     color: #fff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 .nome{
-    margin-left: 75%;
+    margin-left: 74.5%;
     font-size: 32px;
 }
 .banco-h1{
-    margin-left: 1%;
+    margin-left: 2%;
     font-size: 32px;
 }
 .fa-person-running{
     margin-left: 6%;
     font-size: 32px;
+    cursor: pointer;
+}
+.container{
+    height: 92vh;
+    background-color: #e9f5fa;
+    font-family: 'Courier New', Courier, monospace;
+}
+.caixa-button{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+.button-cl{
+    width: 180px;
+    height: 50px;
+    margin-inline: 50px;
+}
+.container-conteudo{
+    height: 92vh;
+    display: flex;
+    justify-content: center;
+}
+.caixa-cadastrar{
+    margin-top: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    width: 600px;
+    height: 600px;
+    border-radius: 30px;
+    box-shadow: 0 0 8px #000;
+}
+.titulo{
+    margin-top: 60px;
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.caixa-cadastrar form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.caixa-cadastrar label{
+    font-size: 28px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+}
+.caixa-cadastrar input{
+    text-align: center;
+    border: 2px solid #007bac;
+    border-radius: 6px;
+    font-size: 19px;
+    width: 280px;
+    height: 25px;
+    
+}
+.caixa-cadastrar button{
+    margin-top: 35px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    font-size: 22px;
+    width: 200px;
+    height: 45px;
+    border: none;
+    background-color: #00327c;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.8s;
+}
+.caixa-cadastrar button:hover{
+    transform: scale(1.15);
+}
+.caixa-visualizar {
+    display: none;
+}
+.mensagem-sucesso {
+    color: #006400; 
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.mensagem-erro {
+    color: #FF0000; 
+    font-weight: bold; 
+    font-size: 22px;
+
+}
+.titulo2{
+    font-size: 48px;
+    margin-top: -10px;
+}
+.caixa-listagem-de-clientes{
+    display: flex;
+    justify-content: center;
+}
+.caixa-listagem{
+    margin-top: 50px;
+    margin-inline: 50px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    width: 1200px;
+    height: 600px;
+    border-radius: 30px;
+    box-shadow: 0 0 8px #000;
+}
+table{
+    width: 100%; 
+    border-collapse: collapse;
+    text-align: center;
+    font-size: 18px;
+}
+table th{
+    background-color: #bbdeff;
+    padding: 2px 1px;
+    border: 1px solid #000;
+}
+table td{
+    background-color: #f7fbff;
+    padding: 2px 1px;
+    border: 1px solid #000;
+}
+.tabela-max {
+    width: 96%;
+    max-height: 450px; 
+    overflow-y: auto; 
+    border: 2px solid #000000;
+    margin-top: 20px; 
+}
+.tabela-max::-webkit-scrollbar-track {
+    background-color: #fff;
+    border-left: 1px solid #000;
+}
+  
+.tabela-max::-webkit-scrollbar-thumb {
+    background-color: #095ba8; 
+}
+.tabela-max::-webkit-scrollbar {
+    height: 1px;
+    width: 10px;
+}
+.btn-visualizar{
+    background-color: #003979;
+    border: none;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+.btn-remover{
+    background-color: #9c0000;
+    border: none;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    border-radius: 8px;
+    text-transform: uppercase;
+}
+.nenhum-cliente{
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 26px;
+    color: #FF0000;
 }
